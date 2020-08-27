@@ -1,0 +1,23 @@
+Package: bn.nsi
+Version: 0.1-1
+Date: 2020-03-28
+Title: functions for working with project settings
+Authors@R: as.person(c(
+    "Rinat Levchuk <bane.tsk@gmail.com> [aut, cre, cph]"))
+Author: Rinat Levchuk [aut, cre, cph]
+Maintainer: Rinat Levchuk <bane.tsk@gmail.com>
+Depends: R (>= 3.5.0)
+Imports:
+    jsonlite,
+    stringr,
+    rlang
+Description: Interface for loading, saving and passing to function project settings
+    Main functions: nsi.param(), is.nsi(), nsi.read(), nsi.save(), nsi.global()
+    Utility functions: fpath(), fgraph(), fdata(), rflat().
+License: GPL-3
+Copyright: Rinat Levchuk
+Encoding: UTF-8
+Language: ru
+URL: https://github.com/bricks-can-fly/bn.nsi
+BugReports: https://github.com/bricks-can-fly/bn.nsi/issues
+RoxygenNote: 7.1.0
